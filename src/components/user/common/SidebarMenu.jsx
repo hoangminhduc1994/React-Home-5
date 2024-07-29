@@ -1,6 +1,9 @@
 import React from 'react'
 
 const SidebarMenu = () => {
+  const handleLinkClick = () => {
+    document.getElementById('sidebarMenu').classList.remove('show');
+  };
   return (
     <>
     {/* SIDEBAR MENU  */}
