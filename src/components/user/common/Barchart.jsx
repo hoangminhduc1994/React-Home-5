@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import ApexCharts from '../common/Apexcharts';
+import ApexCharts from 'apexcharts';
 
 const BarChart = () => {
   const chartRef = useRef(null);

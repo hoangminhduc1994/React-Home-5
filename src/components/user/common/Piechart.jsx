@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import ApexCharts from '../common/Apexcharts';
+import ApexCharts from 'apexcharts';
 
 const PieChart = () => {
   useEffect(() => {
